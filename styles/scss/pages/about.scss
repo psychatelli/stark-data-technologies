@@ -1,0 +1,46 @@
+.about {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    .contentArea {
+        display: flex;
+        flex-wrap: wrap;
+        @extend .contentAreaShared;
+        
+        justify-content: space-between;
+        background: black;
+        margin: 0px auto;
+        h5 {
+            font-size: 20px;
+            margin: 0px;
+        }
+
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        line-height: 1.5;
+    }
+
+    .section {
+        margin-bottom: 10px;
+        border-left: solid thin rgb(61, 61, 61);
+        padding: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 50px) and (max-width: 850px) {
+
+    .about {
+        .description {
+            width: 100%;
+        }
+    }
+
+}
+
+

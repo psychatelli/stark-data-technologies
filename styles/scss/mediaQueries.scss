@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 524px) {
+    .firstRowWrapper{
+        height: auto!important;
+    }
+
+    .homeBanner {
+        height: 100vh!important;
+    }
+
+        .customHeader {
+            font-size: 40px!important;
+        }
+        
+    
+    .bannerContent {
+        margin-top: 30%!important;
+    }
+
+    .NavRow {
+        flex-direction: column;
+        height: auto!important;
+        
+    }
+
+    .hover-box-2 {
+        width: 80%!important;
+        margin: 5px 0px;
+    }
+
+
+    // uxui page START
+    .twoColumns {
+        flex-direction: column;
+    }
+
+    .leftColumn, .rightColumn {
+        width: 100%!important;
+    }
+
+    .contentAreaMobile {
+        flex-direction: column;
+    }
+    // uxui page END
+
+    .videosContainer {
+        // justify-content: center!important;
+    }
+}

@@ -1,0 +1,28 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-content: stretch;
+
+    .contentArea {
+        height: 500px;
+        display: flex;
+        align-items: stretch;
+        @extend .contentAreaShared;
+        justify-content: center;
+    }
+
+    .contactBlock {
+        display: flex;
+        flex-direction: column;
+        background: aqua;
+        padding: 30px;
+        width: 400px;
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+    }
+}

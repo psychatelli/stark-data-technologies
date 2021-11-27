@@ -1,0 +1,54 @@
+
+.videos {
+    display: flex;
+    flex-direction: column;
+
+
+    .contentArea {
+        @extend .contentAreaShared;
+    }
+
+
+    .videosContainer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        width: 100%;
+        padding: 0px;
+    }
+    .videoBox {
+
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 350px;
+        margin: 10px 0px;
+       
+        .title {
+            margin-bottom: 10px;
+            color: aqua;
+        }
+      
+    }
+
+    .videoServiceNav {
+        display: flex;
+        margin: 20px;
+        
+        .videoServiceNavItem{
+            border: solid thin white;
+            padding: 10px;
+            color: white;
+            margin-right: 20px;
+        }
+
+        :hover {
+            background: aqua;
+            color: black;
+            border: solid thin black;
+            cursor: pointer;
+
+        }
+    }
+}

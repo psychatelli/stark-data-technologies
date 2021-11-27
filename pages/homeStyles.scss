@@ -1,0 +1,188 @@
+
+@import '../styles/scss/colors.scss';
+
+
+.home {
+    color: rgb(68, 67, 67);
+
+    h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    p {
+        line-height: 1.8em;
+        font-size: 20px;
+    }
+
+    .home-logo {
+        position: relative;
+        width: 300px;
+        height: 160px;
+    }
+
+
+    .mission-statement-container {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        text-align: center;
+        border: solid rgb(48, 47, 47);
+        .mission-statement {
+            // margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 70%;
+            height: 95%;
+        }
+    }
+
+    .two-column-row {
+        display: flex;
+        height: 600px;
+        border-bottom: solid thin rgb(63, 63, 63);
+
+        h2 {
+            margin: 10px;
+            color: rgb(226, 221, 221);
+        }
+
+        .left-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            background: black;
+            height: 100%;
+
+            .industry-list {
+                display: flex;
+                flex-direction: column;
+
+                .industry-list-item {
+                    margin: 20px 0px;
+                    border: solid thin $primary-blue;
+                    padding: 10px;
+                }
+                .icon {
+
+                }
+                .title {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-family: AbelProBold;
+                    color: $primary-blue;
+                    text-align: center;
+                }
+            }
+        }
+        
+        .right-column{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 100%;
+            font-family: AbelProBold;
+
+            .MuiSvgIcon-root {
+                font-size: 25px;
+                margin-right: 20px;
+            }
+            
+            .content-wrapper {
+                display: flex;
+                color: white;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: rgba(0, 0, 0, 0.788);
+                width: 90%;
+                height: 90%;
+
+
+                .message {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                }
+                .contact-box {
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 0px;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+
+            }
+
+
+        }
+        
+    }
+
+    .partners-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+
+        .partner-item-container {
+            display: flex;
+            margin: 30PX auto;
+            justify-content: space-around;
+            width: 80%;
+        }
+    }
+
+    .speakers-wrapper  {
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 850px){
+    .home { 
+        .mission-statement-container {
+            height: 500px;
+        }
+        .two-column-row {
+            flex-direction: column;
+            height: auto;
+            .left-column, .right-column {
+                width: 100%;
+            }
+
+            .left-column {
+                .left-column-img {
+                    height: 500px;
+                }
+            }
+            .right-column {
+                display: none;
+            }
+        }
+
+        .partners-wrapper {
+            .partner-item-container {
+                flex-direction: column;
+            }
+        }
+
+    }
+    
+}
+
+@media only screen and (min-width: 1500px){
+    .home {
+
+        .home-logo {
+            width: 400px;
+            height: 260px;
+        }
+    }
+
+}

@@ -1,0 +1,427 @@
+
+@import "./scss/colors";
+@import "./scss/mediaQueries";
+@import "./scss/pages/about.scss";
+@import "./scss/pages/contact.scss";
+@import "./scss/pages/project.scss";
+@import "./scss/pages/uxuiHome.scss";
+@import "./scss/pages/videos.scss";
+@import "./scss/pages/realEstate.scss";
+@import "./scss/pages/events.scss";
+@import "./scss/pages/ourHouseDonation.scss";
+
+@import "./scss/footer.scss";
+@import './scss/mainNav.scss';
+@import "./scss/banners";
+@import "./scss/media";
+@import "./scss/priceBox.scss";
+
+@font-face {
+    font-family: "AbelProBold";
+    src: url("/fonts/AbelPro-Bold.ttf");
+    // font-style: normal;
+    // font-weight: 400;
+    // font-display: swap;
+  }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+    a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    p {
+        margin: 0px!important;
+    }
+
+* {
+  box-sizing: border-box;
+}
+
+.appWrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentAreaShared {
+        width: 100%;
+        padding: 10px;
+        margin: 10px auto;
+
+}
+
+.service-desription {
+    margin: 20px;
+}
+
+// IMPORTED STYLES
+
+  
+  #main_wrapper {
+    margin: 0 auto;
+    width: 90%;
+    background: #fff;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  
+  }
+ 
+ 
+  .dark-gray {
+      background: $dark-gray;
+  }
+  
+  ul{
+      color: white;
+  }
+  
+  h1, h2, h3 {
+      margin: 0px;
+  }
+
+  h4, h5, h6 {
+      color: #00ffff!important;
+  }
+   
+  .dark-gray p{
+      margin:20px;
+      color: white;
+      font-size: 20px;
+      
+  }
+  .center {
+      text-align: center;
+      vertical-align: center;
+  }
+  
+  .logo-1 {
+      font-size: 80px;
+      color: $dark-gray;
+  }
+  
+  .home-brn {
+    padding-top: 40px; 
+  }
+  
+  .home-brn img {
+    width: 80px;
+      margin-bottom: 10px;
+  }
+  
+  .home-brn p {
+    line-height: 20px; }
+  
+  .home-brn p:nth-child(2) {
+      font-size: 30px;
+      color:#555555;
+  }
+  .home-brn p:nth-child(3) {
+      font-size: 17px;
+  }
+  
+
+  
+  /* HOME 3 SECTINO AREA  */
+  .white-bg {
+      background-image: url(/images/background-b.jpg);
+  
+  }
+  .three-column-wrapper {
+      padding: 50px 0px 50px 0px;
+  }
+  
+  
+  
+  .three-col-row {
+      width: 100%;
+      height: auto;
+      margin: 25px auto 25px auto;
+      vertical-align: top;
+  }
+  
+  .three-col {
+      display: inline-block;
+      margin: 0px 0px 40px 75px;
+      width: 25%;
+      vertical-align: top;
+  }
+  
+  .three-col h3 {
+      color: dimgrey;
+      font-size: 17px;
+      margin-top: 5px;
+      margin: 0px 0px 40px 75px;
+  
+  }
+  
+  
+  .uxui-box {
+      margin-bottom: 25px;
+      vertical-align: top;
+  
+  }
+  
+  .uxui-box h3 {
+    color: dimgrey!important;
+      font-size: 17px;
+      margin-top: 5px;
+  }
+  
+  .uxui-icon {
+      font-size: 90px;
+      color: #00FFFF; 
+      margin-bottom: 40px!important;
+      }
+      
+  
+  
+  .hover-box-3 {
+      transition: all 0.5s ease;
+      background: $dark-gray;
+      padding: 10px 10px 50px 10px;
+  }
+  
+  .hover-box-3:hover {
+      opacity: .5;
+  }
+  
+  .hover-box-3 h4 {
+      color: $primary-blue;
+      margin-bottom: 30px;
+  }
+  
+  
+  
+  /*SKILLS WIDGET */
+ 
+  
+  .white-row {
+      background: white; 
+  }
+  
+  .blue-row {
+      background: $primary-blue;
+      margin-top: -25px;
+      
+  }
+  
+  .blue-row p{
+      color: $dark-gray!important;
+  }
+  
+  .blue-row img {
+      //width: 90%;
+      margin-bottom: 40px;
+  }
+  
+  .blue-row-2 {
+      background: $primary-blue;
+      margin-top: -25px;
+  }
+  
+  
+  .white-row img {
+      margin: 25px 0px 25px 0px;    
+  }
+  
+  .black-row {
+      background: black; 
+      margin-top: -25px;
+  }
+  
+  .black-row p{
+      color: #ccc;
+  }
+      
+ 
+  .video-gallery {
+      padding: 0px 25px 25px 25px;
+  }
+  
+  .video-gallery h3 {
+      margin-left: 15px!important;
+      color: $primary-blue!important;
+  }
+  .video-gallery p {
+      margin-left: 0px;
+      color: #ccc;
+  }
+  
+  .video-gallery .row {
+      margin-bottom: 30px;
+  }
+  
+  .levels {
+      background-image: url(/images/levels-background.jpg);
+      
+      color: white;
+  }
+  
+  .contact-block {
+      margin: 20px auto;
+      width: 320px;
+  }
+  
+  .contact-icon {
+      font-size: 20px;
+      color: $dark-gray!important;
+      margin-right: 10px;
+      
+  }
+  
+  
+ 
+  
+  /*LEVELS WIDGET */
+  
+  /*HEADERS*/
+  
+  .levels-widget {
+      height: 400px;
+  }
+  
+
+  
+ 
+  
+  .js .toggle-box .content {          display:none; 
+  }
+  
+
+  
+     .content { 
+      background-color: white;
+      width: 100%;
+         
+         ul {
+              list-style-type: none;
+             text-align: left;
+             background: white;
+             padding: 0px;
+  
+             li {
+                 padding: 10px 0px 10px 10px;
+                 width: 100%;
+  
+                 
+             } //End li
+             
+             li:nth-child(even) {
+                 background: $light-gray;
+             }
+             li:hover {
+                 cursor: pointer;
+                 background: #eee;
+             }
+         } //End ul
+  } // End content
+  
+  
+  
+  
+      .toggle .raw {
+      margin-left: 85%;
+      border: solid thin $dark-gray;
+      border-radius: 5px;
+      padding: 5px;
+  }
+  
+  .hr-style {
+      width: 10%;
+      color: $primary-blue;
+      margin: 20px 0px 20px 20px;
+  }
+  
+  .custom-btn {
+      margin: 25px;
+      padding: 15px 32px;
+      border: solid thin $primary-blue;
+      color: $primary-blue;
+      background: $dark-gray;
+      font-size: 15px;
+      transition: all 0.3s ease 0s;
+      
+  }
+  
+  .custom-btn:hover {
+      border: solid thin $primary-blue;
+      background: $primary-blue;
+      color: $dark-gray;
+      
+  }
+  
+  .project-btn {
+      color: white;
+      font-size: 30px;
+      padding: 5px 0px 5px 10px;
+      transition: all 0.3s ease 0s;
+  }
+  
+  .project-btn:hover {
+      color: $dark-gray;
+      cursor: pointer;
+  }
+  
+  .grid-box-header {
+      padding-bottom: 20px!important;
+  }
+  
+ 
+  
+  .myBtnDark {
+      background: none;
+      border: solid thin #282828!important;
+      color: #282828;
+      border-radius: 5px;
+      padding: 10px;
+      transition: transform .9s; /* Animation */
+  
+  }
+  
+  .myBtnDark:hover {
+      background: #282828;
+      color: rgb(228, 227, 227)!important;
+  
+      transition: background-color 400ms linear;
+      // transition: color 500ms linear;
+  
+  }
+   
+  
+  .zoom {
+    //   padding: 50px;
+      transition: transform .9s; /* Animation */
+    //   margin: 0 auto;
+  }
+  
+  .zoom:hover {
+      transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  .flex-box {
+      display: flex;
+  }
+  
+ 
+  
+  .allprojects {
+      margin: 10px;
+  }
+  
+  .img_controle img {
+      width: 100%;
+      margin: 5px;
+  }
+  
+  .interface_img img{
+      width: 95%;
+  }

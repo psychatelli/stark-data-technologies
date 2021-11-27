@@ -1,0 +1,49 @@
+
+.porject {
+    display: flex;
+    flex-direction: column;
+
+    .customHeader {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    
+    .contentAreaDestop {
+        display: flex;
+        flex-direction: column;
+        @extend .contentAreaShared;
+
+    }
+    .contentAreaMobile {
+        display: flex;
+        justify-content: space-evenly;
+        @extend .contentAreaShared;
+    }
+
+    .backButton {
+        display: flex;
+        align-items: center;
+        padding: 10px 0px 0px 30px;
+    }
+    .mainTitle {
+        text-transform: uppercase;
+    }
+
+    .interface_img {
+        margin-bottom: 10px;
+    }
+    .projectDescription {
+        padding: 40px;
+
+        h2 {
+            font-size: 50px;
+            color: aqua;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    }
+    
+}

@@ -1,0 +1,90 @@
+
+.skills {
+ display: flex;
+
+ flex-direction: column;
+ height: auto;
+
+.hexagon_wrap {
+    display: flex;
+    margin: 5px;
+}
+
+
+.hexagon_wrap p{
+    color: #fff;
+    // padding-top: 30px;
+
+}
+
+.hexagon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 312px; 
+  height: 175.21px;
+  background-color: none;
+  margin: 86.60px 0;
+  border-left: solid 7px aqua;
+  border-right: solid 7px aqua;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 38.9340px;
+}
+
+.hexagon:before {
+  top: -106.0660px;
+  margin-top: -4px;
+  border-top: solid 8.0711px aqua;
+  border-right: solid 8.0711px aqua;
+}
+
+.hexagon:after {
+  bottom: -106.0660px;
+  margin-bottom: -4px;
+  border-bottom: solid 8.0711px aqua;
+  border-left: solid 8.0711px aqua;
+}
+  
+  .rowTitle {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 25px 0px 0px 25px;
+    color: $mid-gray;
+    }
+
+  .hexigonContainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+ 
+  .hexigonContainContainer.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+
+
+}

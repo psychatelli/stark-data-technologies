@@ -1,0 +1,68 @@
+
+.events {
+    .eventsPriceboxWrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0px auto;
+    }
+    .contentArea {
+        padding: 20px;
+    }
+
+    .serviceDescriptionBox {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;    
+        .iconContainer {
+            margin-right: 30px;
+            .MuiSvgIcon-root {
+                color: gray;
+                font-size: 25px;
+            }
+    
+        }
+        .description {
+    
+        }
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 50px) and (max-width: 850px) {
+
+    .events {
+        .eventsPriceboxWrapper {
+            flex-direction: column;
+            align-items: center;
+
+            
+        }
+    }
+   
+}
+
+@media only screen and (min-width: 50px) and (max-width: 690px) {
+    .eventsPhotography {
+        .contentArea {
+            padding: 10px;
+        }
+
+        .lightGray-banner{
+            h1 {
+                font-size: 38px!important;
+            }
+        }
+
+        .priceBox {
+            width: 100%;
+        }
+        
+    }
+
+}
