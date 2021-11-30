@@ -52,6 +52,20 @@
     }
 }
 
+@media only screen and (max-width: 930px){
+    .firstRowWrapper{
+
+        .logoOverlay {
+            .logoOverlay-content {
+                    .symbol {
+                    }
+                    .text {
+                        margin-top: -20px;
+                    }
+            }
+        }    
+    }
+}
 
 @media only screen and (max-width: 450px){
     .firstRowWrapper{
