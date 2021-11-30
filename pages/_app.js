@@ -2,8 +2,8 @@ import '../styles/globals.scss';
 import { useEffect } from 'react';
 import MainNav from '../components/MainNav';
 import Footer from '../components/Footer';
-import { ThemeProvider } from '@material-ui/core/styles';
-import theme from '../src/theme';
+// import { ThemeProvider } from '@mui/material/styles';
+// import theme from '../src/theme';
 
 
 function MyApp({ Component, pageProps }) {
@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   return (
-    <ThemeProvider theme={theme}>
 
   <content>
 
@@ -33,7 +32,6 @@ function MyApp({ Component, pageProps }) {
     </div>
    
   </content>
-  </ThemeProvider>
   )
 }
 

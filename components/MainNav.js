@@ -2,36 +2,35 @@
 import  React, { useState} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { makeStyles } from '@material-ui/core/styles';
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import ListItem from '@material-ui/core/ListItem';
-import List from '@material-ui/core/List';
-import ListItemText from '@material-ui/core/ListItemText';
-import Button from '@material-ui/core/Button';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import ContactlessIcon from '@material-ui/icons/Contactless';
-import HomeIcon from '@material-ui/icons/Home';
-import VideocamIcon from '@material-ui/icons/Videocam';
-import WebIcon from '@material-ui/icons/Web';
-import MenuIcon from '@material-ui/icons/Menu';
+// import { makeStyles } from '@mui/material/styles';
+import SwipeableDrawer from '@mui/material/SwipeableDrawer';
+import ListItem from '@mui/material/ListItem';
+import List from '@mui/material/List';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import ContactlessIcon from '@mui/icons-material/Contactless';
+import HomeIcon from '@mui/icons-material/Home';
+import VideocamIcon from '@mui/icons-material/Videocam';
+import WebIcon from '@mui/icons-material/Web';
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 
-const useStyles = makeStyles({
-    list: {
-      width: 300,
+// const useStyles = makeStyles({
+//     list: {
+//       width: 300,
       
-    },
-    fullList: {
-      width: '300',
-    },
-  });
+//     },
+//     fullList: {
+//       width: '300',
+//     },
+//   });
 
-
+ 
 const MainNav = () => {
 
-    const classes = useStyles();
+    // const classes = useStyles();
   const [state, setState] = useState({
     top: false,
     left: false,
@@ -53,10 +52,10 @@ const MainNav = () => {
                 <Link href="/">
                     <a> 
                         <Image
-                            src="/techup-tampa-Logo.png"
+                            src="/stark-icon.png"
                             alt="brand logo"
-                            width={30}
-                            height={35}
+                            width={45}
+                            height={40}
                         />
                     </a>
                 </Link>

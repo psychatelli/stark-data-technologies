@@ -1,8 +1,11 @@
 
  const Footer = () => {
+    let year =  new Date().getFullYear();
+
+
     return (
         <div className='footer'>
-            <p>Techup Tampa - Copyright © 2021</p>
+            <p>Stark Data Technologies - Copyright © {year}</p>
         </div>
     )
 }
