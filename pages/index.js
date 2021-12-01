@@ -20,8 +20,8 @@ import EmailIcon from '@mui/icons-material/Email';
   return (
     <div className='home'>
       <PageHead
-      title='Techup Tampa- Home'
-      description='Techup Tampa Building our Community'
+      title='Stark Data Technologies'
+      description='Bringing You The Next Generation Of Tech'
       />
 
       
