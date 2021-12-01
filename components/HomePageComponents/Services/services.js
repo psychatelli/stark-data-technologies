@@ -22,22 +22,22 @@ import './services.scss'
         {
             img: '/tech-icons/cyber-security.png',
             title: 'cyber-security',
-            description: 'This si the desilckcnf dthat is aam going to showcase inthe description section.'
+            description: 'Transform your business and manage risk with a cybersecurity consulting, cloud and managed security services.'
         },
         {
             img: '/tech-icons/infrastructure-design.png',
             title: 'infrastructure-design',
-            description: 'This si the desilckcnf dthat is aam going to showcase inthe description section.'
+            description: 'Design your network to make your existing IT infrastructure more efficient without jeopardizing security.'
         },
         {
             img: '/tech-icons/cloud-computing.png',
             title: 'Cloud Computing',
-            description: 'This si the desilckcnf dthat is aam going to showcase inthe description section.'
+            description: 'Fix issues, develop a strategy, utilize managed services, or further modernize and secure your your cloud services.'
         },
         {
             img: '/tech-icons/data-dashboards.png',
             title: 'Data Dashboards',
-            description: 'This si the desilckcnf dthat is aam going to showcase inthe description section.'
+            description: 'We connect your metrics, data sources, APIs, and services to help you connect relevant information and display it in user-friendly ways.'
         },
     ]
 
@@ -58,8 +58,8 @@ import './services.scss'
         hidden: { x: -700 }
         }}
         >
-                <h3>Bringing You The Next Generation Of Tech</h3>
-        <p>This si the desilckcnf dthat This si the desilckcnf dthat is aam going to showcase inthe description is aam going to showcase inthe description</p>      
+                <h3>- Bringing You The Next Generation Of Tech -</h3>
+        <p>Brinking you closer to the edge of modern technology to improve and help grow your business through cloud, security, data, and improved digital infrastructure</p>      
         </motion.div>
         </div>
         
