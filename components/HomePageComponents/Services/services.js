@@ -32,7 +32,7 @@ import './services.scss'
         {
             img: '/tech-icons/cloud-computing.png',
             title: 'Cloud Computing',
-            description: 'Fix issues, develop a strategy, utilize managed services, or further modernize and secure your your cloud services.'
+            description: 'Fix issues, develop a strategy, utilize managed services, or further modernize and secure your cloud services.'
         },
         {
             img: '/tech-icons/data-dashboards.png',
