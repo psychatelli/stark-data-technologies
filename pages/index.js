@@ -2,13 +2,13 @@ import React, { useRef, useEffect } from 'react'
 
 import PageHead from '../components/head'
 import HomeBanner from '../components/HomePageComponents/homeBanner/homeBanner';
+import styles from './homeStyles.scss'
 import Services from '../components/HomePageComponents/Services/services';
 import Industries from '../components/HomePageComponents/Industries/industries';
 import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
 import EmailIcon from '@mui/icons-material/Email';
 
  const Home = () => {
-
 
   return (
     <div className='home'>
