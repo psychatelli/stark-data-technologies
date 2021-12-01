@@ -31,7 +31,7 @@ import EmailIcon from '@mui/icons-material/Email';
                     <div className='content-wrapper'>
                         <div className='message'>Contact Us To Get Started</div>
                         <div className='contact-box'> <PermPhoneMsgIcon /> Sales: 615-295-5280</div>
-                        <div className='contact-box'><EmailIcon /> support@starkdatatch.com</div>
+                        <div className='contact-box'><EmailIcon /> support@starkdatatech.com</div>
                     </div>
             </div>
         </div>
